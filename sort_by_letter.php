@@ -4,7 +4,8 @@ echo '<h1>Example of Sorting with Custom Letter</h1>';
 
 $strings = array('Foo', 'Moo', 'Xuux', 'Me', 'Blah', 'Ma');
 
-echo 'Before Sorting Arrray- <pre>';print_r($strings);
+echo 'Before Sorting Array- <pre>';print_r($strings);
+
 $letter = 'M';
 
 usort($strings, function($a, $b) use($letter) {
