@@ -16,5 +16,5 @@ usort($strings, function($a, $b) use($letter) {
     return strcmp($a, $b);  
 });
 
-echo 'after- <pre>';print_r($strings);
+echo 'After Sorting Array- <pre>'; print_r($strings);
 ?>
